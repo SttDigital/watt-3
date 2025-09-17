@@ -1,0 +1,23 @@
+{
+  "name": "watt-3",
+  "scripts": {
+    "dev": "wattpm dev",
+    "build": "wattpm build",
+    "start": "wattpm start",
+    "seed": "wattpm lackadaisical-satoshi:seed seed.ts"
+  },
+  "devDependencies": {
+    "fastify": "^5.0.0"
+  },
+  "dependencies": {
+    "@platformatic/runtime": "^3.2.1",
+    "platformatic": "^3.2.1",
+    "wattpm": "^3.2.1"
+  },
+  "engines": {
+    "node": ">=22.19.0"
+  },
+  "workspaces": [
+    "web/*"
+  ]
+}

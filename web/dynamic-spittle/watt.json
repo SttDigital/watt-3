@@ -1,0 +1,15 @@
+{
+  "$schema": "https://schemas.platformatic.dev/@platformatic/gateway/3.2.1.json",
+  "watch": true,
+  "gateway": {
+    "applications": [
+      {
+        "id": "lackadaisical-satoshi"
+      },
+      {
+        "id": "blue-eyed-putrescence"
+      }
+    ],
+    "refreshTimeout": 1000
+  }
+}
